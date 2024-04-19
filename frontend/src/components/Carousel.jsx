@@ -2,9 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Image1 from '../Assets/image1.jpg';
-import Image2 from '../Assets/image2.webp';
-import Image3 from '../Assets/image3.jpg';
 import { Box } from '@chakra-ui/react';
 
 const SimpleCarousel = () => {
@@ -19,14 +16,14 @@ const SimpleCarousel = () => {
   return (
     <Box >
       <Slider {...settings}>
-        <Box paddingLeft="30%" >
-          <img src={Image1} alt="Image 1" style={{ width: '60%', maxHeight: '500px', border:'10px solid black' }} />
+        <Box paddingLeft="20%" >
+          <img src='https://htmlcolorcodes.com/assets/images/colors/teal-color-solid-background-1920x1080.png' alt="Image 1" style={{ width: '70%', maxHeight: '700px' }} />
         </Box>
-        <Box paddingLeft="30%">
-          <img src={Image2} alt="Image 2" style={{ width: '60%', maxHeight: '500px', border:'10px solid black' }} />
+        <Box paddingLeft="20%" >
+          <img src='https://htmlcolorcodes.com/assets/images/colors/teal-color-solid-background-1920x1080.png' alt="Image 1" style={{ width: '70%', maxHeight: '700px' }} />
         </Box>
-        <Box paddingLeft="30%">
-          <img src={Image3} alt="Image 3" style={{ width: '60%', maxHeight: '500px', border:'10px solid black' }} />
+        <Box paddingLeft="20%" >
+          <img src='https://htmlcolorcodes.com/assets/images/colors/teal-color-solid-background-1920x1080.png' alt="Image 1" style={{ width: '70%', maxHeight: '700px' }} />
         </Box>
       </Slider>
     </Box>
